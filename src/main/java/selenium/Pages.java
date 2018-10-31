@@ -14,6 +14,7 @@ public abstract class Pages extends SeleniumFunctions {
 
 	protected void open(String path){
 		driver.get(baseUrl + path);
+		System.out.println("This line is edited");
 	}
 
 	protected void open(){
